@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #0f0d13;
+  color: #e1e1e6;
+}
+
+button {
+  cursor: pointer;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  max-height: 60rem;
+
+  padding: 2.4rem;
+  border-radius: 0.8rem;
+}
+
+.App .players-container {
+  display: flex;
+  grid-gap: 2.4rem;
+}
+
+.App .players-container .player-col {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2.4rem;
+}

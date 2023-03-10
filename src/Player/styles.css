@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3.8rem;
+  gap: 2.8rem;
+
+  border-radius: 0.8rem;
+  background-color: #2a2141;
+}
+
+.simple,
+.mini {
+  padding: 2.8rem;
+}
+
+.simple .music-details,
+.mini .music-details {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.simple .cover-image,
+.mini .cover-image {
+  max-width: 8.4rem;
+  margin-bottom: 0;
+  margin-right: 2.8rem;
+}
+
+.simple .controls,
+.mini .controls {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mini .timestamp-details {
+  display: none;
+}
+
+.simple .music-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cover-image {
+  width: 100%;
+  max-width: 20rem;
+  margin-bottom: 2.8rem;
+  border-radius: 0.8rem;
+}
+
+.music-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.music-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.music-artist {
+  font-size: 2rem;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.controls {
+  width: 100%;
+  display: flex;
+  max-height: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.control-button {
+  padding: 0.8rem 0;
+  border: 0;
+  background: transparent;
+
+  color: #e1e1e6;
+}
+
+.timestamp-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-bar {
+  /* style rules */
+  width: 100%;
+  height: 0.6rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+  /* style rules */
+  background: #d9d9d9;
+  opacity: 0.7;
+  border-radius: 0.8rem;
+  position: relative;
+}
+
+.progress-bar::-webkit-progress-bar {
+  /* style rules */
+  background-color: #d9d9d94d;
+}
+.progress-bar::-webkit-progress-value {
+  /* style rules */
+  background: #d9d9d9;
+  opacity: 0.7;
+  border-radius: 0.8rem;
+  position: relative;
+}
+
+.timestamp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 0.9rem;
+
+  opacity: 0.7;
+
+  font-size: 1.4rem;
+  font-weight: 400;
+}
