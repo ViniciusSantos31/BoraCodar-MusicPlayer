@@ -1,0 +1,60 @@
+.cover-container {
+  min-width: 20rem;
+  margin-bottom: 2.8rem;
+  aspect-ratio: 1;
+  min-height: 20rem;
+  background: #d9d9d9;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.cover-image {
+  width: 100%;
+  max-width: 20rem;
+}
+
+.music-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.simple .music-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.music-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.music-artist {
+  font-size: 2rem;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.simple .music-details,
+.mini .music-details {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.simple .cover-image,
+.mini .cover-image {
+  max-width: 8.4rem;
+}
+
+.simple .cover-container,
+.mini .cover-container {
+  min-width: 8.4rem;
+  min-height: 8.4rem;
+  margin-bottom: 0;
+  margin-right: 2.8rem;
+}

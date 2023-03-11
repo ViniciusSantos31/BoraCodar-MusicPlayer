@@ -1,0 +1,14 @@
+.controls {
+  width: 100%;
+  display: flex;
+  max-height: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.simple .controls,
+.mini .controls {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}

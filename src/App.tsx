@@ -1,6 +1,6 @@
 import { music } from "./mocks/musics";
 
-import MusicPlayer from "./Player";
+import MusicPlayer from "./components/MusicPlayer";
 
 import "./styles.css";
 
